@@ -186,3 +186,9 @@ Hal ini membuktikan bahwa intensitas radiasi berbanding lurus dengan pangkat emp
 dengan deviasi kecil yang kemungkinan disebabkan oleh emisivitas permukaan,
 akurasi sensor, dan kondisi lingkungan selama pengukuran.
 """)
+ 
+name = st.text_input(label='Nama lengkap', value='')
+st.write('Nama: ', name)
+ 
+text = st.text_area('Feedback')
+st.write('Feedback: ', text)
